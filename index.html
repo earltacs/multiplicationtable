@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Multiplication Table</title>
+	<script type="text/javascript" src="java.js"></script>
+</head>
+<body>
+	<form> 
+    	<div style="float:left;margin-right:20px;">
+			<label for="rows" style="display: block; margin-left: 120px;">Rows</label>
+			<label style="float: none; display: inline-block; text-align: right;">Number</label>
+			<input type="Text" id="rows" name="rows">
+		</div>
+    	<div style="float:left;margin-right:20px;">
+			<label for="columns" style="display: block; margin-left: 60px;">Columns</label>
+			<input type="Text" id="columns" name="columns">
+		</div>
+		<button type="button" style="margin-top: 18px; background: transparent;" onclick="generate_table()">Show Tables</button>
+		<div style="margin-top: 20px;">
+			<label>Colors</label>
+			<button type="button" style="margin-left: 10px; width: 175px; height: 30px">Background Color</button>
+			<button type="button" style="margin-left: 11px; width: 175px; height: 30px">Text Color</button>
+		</div>
+	</form>
+	<section id="multiplication" style="margin-top: 30px;">
+	</section>
+</body>
+</html>
