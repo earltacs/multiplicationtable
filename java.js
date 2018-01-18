@@ -15,16 +15,10 @@ function generateTable(){
 	}
 
 	document.getElementById('table').innerHTML = htmlContainer;	
-}
-
-function bgColorChange(){
 	var color = document.getElementById('bgcolor').value;
 	
 	document.getElementById('tab').style.backgroundColor = color;
 	document.getElementById('tab').style.borderColor = color;
-}
-
-function txtColorChange(){
 	var color = document.getElementById('txtcolor').value;
 	
 	document.getElementById('tab').style.color = color;
